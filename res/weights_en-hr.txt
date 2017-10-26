@@ -1,0 +1,2 @@
+#CW translate, CF translate, Align scrambled, Start/End with translation, Have the same end punct.
+0.290055	0.005170	0.415187	0.163269	0.126320

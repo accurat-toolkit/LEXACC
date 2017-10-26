@@ -1,0 +1,10 @@
+d:\Work\C#\AccuratAligner\AccuratAligner\bin\Debug\AccuratAligner.exe
+d:\Work\C#\AccuratAligner\AccuratAligner\bin\Debug\AccuratAligner.pdb
+d:\Work\C#\AccuratAligner\AccuratAligner\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Work\C#\AccuratAligner\AccuratAligner\obj\x86\Debug\AccuratAligner.exe
+d:\Work\C#\AccuratAligner\AccuratAligner\obj\x86\Debug\AccuratAligner.pdb
+d:\1\AccuratAligner\AccuratAligner\bin\Debug\AccuratAligner.exe
+d:\1\AccuratAligner\AccuratAligner\bin\Debug\AccuratAligner.pdb
+d:\1\AccuratAligner\AccuratAligner\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\1\AccuratAligner\AccuratAligner\obj\x86\Debug\AccuratAligner.exe
+d:\1\AccuratAligner\AccuratAligner\obj\x86\Debug\AccuratAligner.pdb

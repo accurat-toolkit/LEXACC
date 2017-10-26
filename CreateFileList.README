@@ -1,0 +1,7 @@
+.\CreateFileList.exe C:\RuntimeTempDir\CORPORA\USFD\ txt en-lv\lv .\EN-LV_LV.lst
+.\CreateFileList.exe C:\RuntimeTempDir\CORPORA\USFD\ txt en-lv\en .\EN-LV_EN.lst
+
+Argument 1: source folder (use the absolute paths ... will be safer);
+Argument 2: (txt) - file extension;
+Argument 3: (en-lv\en) - a required string in the path (so that only the required language pair and language documents would be listed);
+Argument 4: Output file (the file list that will be one of the inputs for LEXACC).

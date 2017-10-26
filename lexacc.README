@@ -1,0 +1,44 @@
+--param seg=true => the texts are already sentence segmented and tokenized (default false)
+--param maxrep=<integer> => integer:integer alignments are allowed (that is, one source sentence may be aligned to e.g. the first 100 candidates and viceversa) (default 1)
+--param kif=true => keep intermediary files true (default false)
+--param t=<float> => the output threshold (default is 0.2)
+--param filter=false => do not execute the pre-filtering step after searching for candidates (default true)
+--input <file> => the document list file for the source collection; if --docalign is specified, this argument MUST NOT be given
+--input <file> => the document list file for the target collection; if --docalign is specified, this argument MUST NOT be given
+--docalign <file> => the document alignment file; format: source document <TAB> target document <TAB> score <NEWLINE>; if this is given then --input MUST NOT be given
+--source <lang> => en, ro, lt, lv, ... the source language
+--target <lang> => en, ro, lt, lv, ... the target language
+--output <file> => the name of the file to output the results to
+--test <file> => output of the program specified with --output
+
+Example
+
+lexacc.exe 
+	--input en_de_enList.txt
+	--input en_de_deList.txt
+	--source en
+	--target de
+	--output results_en_de.txt
+	--param seg=true
+	--param kif=false
+	--param t=0.1
+	--param maxrep=3
+
+or
+
+lexacc.exe 
+	--docalign en-de-docs-align.txt
+	--source en
+	--target de
+	--output results_en_de.txt
+	--param kif=false
+	--param t=0.1
+	--param maxrep=2
+
+or
+
+lexacc.exe 
+	--source en --target de \
+	--test results_en_de.txt \
+	en_de_en-100-parallel.txt en_de_de-100-parallel.txt
+	
